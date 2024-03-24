@@ -1,0 +1,76 @@
+body {
+  background-color: rgba(15, 15, 29, 0.95);
+  margin: auto;
+  padding: auto
+}
+
+h1
+{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+p
+{
+  text-align: center; 
+  color: greenyellow; 
+  letter-spacing: 1px;
+  opacity: 80%;
+}
+#sth_margin
+{
+  display: flex;
+  justify-content: center;
+}
+.ads_label
+{
+  background-color: white;
+  width: 80%;
+  height: 160px;
+  margin-bottom: 40px;
+}
+a
+{
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  display: none;
+}
+/* PC STYLES */
+@media screen and (min-width: 1024px){
+h1 
+{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+p
+{
+  text-align: center; 
+  color: greenyellow; 
+  letter-spacing: 1px;
+  font-size: 20px;
+  opacity: 80%;
+}
+#sth_margin
+{
+  display: flex;
+  justify-content: center;
+}
+.ads_label
+{
+  background-color: white;
+  width: 40%;
+  height: 320px;
+  margin-bottom: 60px;
+}
+a
+{
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-size: 30px;
+  display: none;
+  }
+}
